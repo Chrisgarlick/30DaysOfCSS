@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    margin: 150px 450px;
+    width: 350px;
+    height: 300px;
+    border: 1px solid hsl(185, 75%, 39%);
+    border-radius: 10%;
+    background-color: #fff;
+    transform: translateY(180px);
+}
+
+.top {
+    width: 350px;
+    height: 100px;
+    border-bottom: 1px solid #0f8168;
+    background-color: #0f8168;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.spantop svg {
+    width: 350px;
+    height: 100px;
+    border-radius: 10%;
+    border: 1px solid #0f8168;
+}
+
+.middle img {
+    position:sticky;
+    transform: translate(130px, -50px);
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 75px;
+
+}
+
+.middle span p {
+    font-size: 16px;
+    transform: translate(120px, -60px);
+}
+
+.location span p{
+    transform: translate(145px, -105px);
+}
+
+
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translateY(-105px);
+    border-top: 1px solid grey;
+    padding-top: 10px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.bottomsvg {
+    transform: translate(800px, -300px);
+}
+
+.first {
+    margin-bottom: 100px;
+}
+
+.first svg {
+    transform: translate(-40px, -40px);
+    transform: rotate(-180deg);
+    position: absolute;
+    z-index: -1;
+}
