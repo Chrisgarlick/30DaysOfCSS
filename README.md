@@ -9,3 +9,7 @@ I am attempting to do a 30 days of CSS challenge to improve my CSS skills! Thank
 # Day 2
 
 <img width="1278" alt="Screenshot 2021-02-01 at 19 00 53" src="https://user-images.githubusercontent.com/67547010/106622784-ddade800-656b-11eb-8a71-e044ffcea020.png">
+
+# Day 3
+
+<img width="1171" alt="Screenshot 2021-02-03 at 10 11 58" src="https://user-images.githubusercontent.com/67547010/106734378-d984d780-660a-11eb-8c5e-7f0c48d665ad.png">
