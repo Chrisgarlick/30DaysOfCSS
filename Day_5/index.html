@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+  
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img class="bg" src="images/pattern-bg.svg" alt="">
+    <img class="image" src="images/image-tanya.jpg" alt="">
+    <div class="slider">
+      <img class="prev" onclick=plusSlides(-1) src="images/icon-prev.svg" alt="">
+      <img class="next" onclick=plusSlides(1) src="images/icon-next.svg" alt="">
+    </div>
+    <div class="quotes">
+      <img src="images/pattern-quotes.svg" alt="" class="bgquote">
+      <div class="words">
+        <p>“ I’ve been interested in coding for a while but never taken the jump, until now. 
+          I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
+          excited about the future. ”</p>
+        <div class="person">
+          <h1>Tanya Sinclaire</h1>
+          <p>UX Engineer</p>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <img src="images/pattern-curve.svg" alt="">
+    </div>
+  </div>
+  <div class="card">
+    <img class="bg" src="images/pattern-bg.svg" alt="">
+    <img class="image" src="images/image-john.jpg" alt="">
+    <div class="slider">
+      <img class="prev" onclick=plusSlides(-1) src="images/icon-prev.svg" alt="">
+      <img class="next" onclick=plusSlides(1) src="images/icon-next.svg" alt="">
+    </div>
+    <div class="quotes">
+      <img src="images/pattern-quotes.svg" alt="" class="bgquote">
+      <div class="words">
+        <p>“ If you want to lay the best foundation possible I’d recommend taking this course. 
+          The depth the instructors go into is incredible. I now feel so confident about 
+          starting up as a professional developer. ”</p>
+        <div class="person" id="card2name">
+          <h1>John Tarkpor</h1>
+          <p>Junior Front-end Developer</p>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <img src="images/pattern-curve.svg" alt="">
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
