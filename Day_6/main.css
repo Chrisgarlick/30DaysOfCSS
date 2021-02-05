@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/* MOBILE VERSION */
+
+@media only screen and (max-width: 400px){
+    body {
+        width: 500px;
+        height: 1700px;
+        font-family: 'Poppins', sans-serif;
+        color: hsl(234, 12%, 34%);
+    }
+    .card {
+        width: 375px;
+        height: 1500px;
+        background-color: hsl(0, 0%, 98%);
+        margin-left: 10px;
+    }
+    .top {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 350px;
+    }
+    .top h1 {
+        margin: auto;
+        font-size: 25px;
+        padding-bottom: 20px;
+        transform: translateX(10px);
+        font-weight: 600;
+    }
+    .top p {
+        margin: auto;
+        font-size: 15px;
+        text-justify: auto;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding: 10px 10px;
+        font-weight: 200;
+        transform: translateX(20px);
+    }
+    .first {
+        transform: translateX(15px) !important;
+        font-size: 25px !important;
+        font-weight: 200 !important;
+    }
+    .supervisor, .team, .karma, .calc {
+        width: 80%;
+        border-top: 5px solid hsl(180, 62%, 55%);
+        background-color: #ffffff;
+        margin-left: 10%;
+        margin-top: 50px;
+        height: 250px;
+        box-shadow: 0 5px 10px -1px hsl(229, 6%, 66%);
+    }
+    .supervisor img, .team img, .karma img, .calc img {
+        transform: translate(200px, 20px)
+    }
+
+    .supervisor h5, .supervisor p, .team h5, .team p, .karma h5, .karma p, .calc h5, .calc p {
+        margin: 25px 20px 0 40px;
+        font-size: 15px;
+    }
+    .supervisor h5, .team h5, .karma h5, .calc h5 {
+        font-weight: 400;
+    }
+    .supervisor p, .team p, .karma p, .calc p {
+        font-weight: 200;
+    }
+    .team {
+        border-top: 5px solid hsl(0, 78%, 62%);
+    }
+    .karma {
+        border-top: 5px solid hsl(34, 97%, 64%);
+    }
+    .calc {
+        border-top: 5px solid hsl(212, 86%, 64%);
+    }
+}
+
+/* DESKTOP VERSION */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+}
+.card {
+    width: 95%;
+    height: 80%;
+    background-color: hsl(0, 0%, 98%);
+    margin-left: 25px;
+} 
+.top {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    transform: translateX(280px);
+} 
+.top h1 {
+    margin: auto;
+    font-size: 25px;
+    padding-bottom: 20px;
+    transform: translateX(10px);
+    font-weight: 600;
+} 
+.top p {
+    margin: auto;
+    font-size: 15px;
+    text-justify: auto;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 10px 10px;
+    font-weight: 200;
+    transform: translateX(20px);
+} 
+.first {
+    transform: translateX(10px) !important;
+    font-size: 25px !important;
+    font-weight: 200 !important;
+}  
+.supervisor, .team, .karma, .calc {
+    width: 25%;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    background-color: #ffffff;
+    margin-left: 12%;
+    margin-top: 50px;
+    height: 200px;
+    box-shadow: 0 5px 10px -1px hsl(229, 6%, 66%);
+} 
+
+.supervisor {
+    transform: translate(-50px, 100px);
+}
+
+.team {
+    transform: translate(300px, -300px);
+}
+
+.karma {
+    transform: translate(300px, -300px);
+}
+.calc {
+    transform: translate(650px, -650px);
+}
+.supervisor img, .team img, .karma img, .calc img {
+    transform: translate(200px, -20px)
+}
+
+.supervisor h5, .supervisor p, .team h5, .team p, .karma h5, .karma p, .calc h5, .calc p {
+    margin: 25px 20px 0 40px;
+    font-size: 15px;
+}
+.supervisor h5, .team h5, .karma h5, .calc h5 {
+    font-weight: 400;
+}
+.supervisor p, .team p, .karma p, .calc p {
+    font-weight: 200;
+}
+.team {
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.calc {
+    border-top: 5px solid hsl(212, 86%, 64%);
+} 
