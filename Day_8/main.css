@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* MOBILE */
+
+@media only screen and (max-width: 400px){
+    body {
+        width: 400px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .card {
+        background-color: hsl(0, 100%, 74%) ;
+        margin-left: 10px;
+    }
+    .mobile{
+        width: 375px;
+    }
+    .desktop {
+        display: none;
+        visibility: hidden;
+    }
+    .top {
+        position: relative;
+        transform: translateY(-975px);
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        color: #fff;
+    }
+    .try {
+        margin: auto;
+        border: 1px solid hsl(248, 32%, 49%);
+        background-color: hsl(248, 32%, 49%);
+        width: 80%;
+        color: #fff;
+        transform: translateY(-950px);
+        border-radius: 15px;
+        box-shadow: 0px 5px 5px 0px hsl(249, 10%, 26%);
+    }
+    .one {
+        padding: 20px 0;
+        margin: auto;
+        width: 60%;
+        font-weight: 600;
+        text-align: center;
+    }
+    .two {
+        font-weight: 400;
+    }
+    .form {
+        background-color: #fff;
+        width: 350px;
+        height: 550px;
+        border-radius: 10px;
+        margin: auto;
+        padding-top: 10px;
+        transform: translateY(-900px);
+        box-shadow: 0px 5px 5px 0px hsl(249, 10%, 26%);
+    }
+    form {
+        margin-top: 20px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+    }
+    input {
+        width: 255px;
+        border: 1px solid grey;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        padding: 20px 10px;
+        border-radius: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    button {
+        width: 275px;
+        padding: 15px 15px;
+        margin: 20px 0;
+        border-radius: 5px;
+        border-width: 0px;
+        background-color: hsl(154, 59%, 51%);
+        color: #fff;
+        box-shadow: 0px 5px 5px 0px hsl(249, 10%, 26%);
+    }
+    .terms {
+        font-size: 14px;
+        text-align: center;
+        width: 75%;
+        font-weight: 400;
+        transform: translate(50px, -970px);
+    }
+    .terms p span {
+        color:hsl(0, 100%, 74%);
+        font-weight: 600;
+    }
+}
+
+/* DESKTOP */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.card {
+    background-color: hsl(0, 100%, 74%) ;
+    margin-left: 10px;
+    width: 1400px;
+}
+.mobile {
+    display: none;
+    visibility: hidden;
+    width: 375px;
+} 
+.top {
+    /* position: relative; */
+    transform: translate(-350px, -600px);
+    text-align: left;
+    width: 35%;
+    margin: auto;
+    color: #fff;
+    font-size: 18px;
+} 
+.top p {
+    font-size: 15px;
+} 
+.try {
+    margin: auto;
+    border: 1px solid hsl(248, 32%, 49%);
+    background-color: hsl(248, 32%, 49%);
+    width: 40%;
+    color: #fff;
+    transform: translate(225px, -1000px);
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px 0px hsl(249, 10%, 26%);
+} 
+.one {
+    padding: 20px 0;
+    margin: auto;
+    width: 60%;
+    font-weight: 600;
+    text-align: center;
+}
+.two {
+    font-weight: 400;
+} 
+.form {
+    background-color: #fff;
+    width: 40%;
+    height: 450px;
+    border-radius: 10px;
+    margin: auto;
+    padding-top: 10px;
+    transform: translate(225px, -950px);
+    box-shadow: 0px 5px 5px 0px hsl(249, 10%, 26%);
+}
+form {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+input {
+    width: 90%;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transform: translateX(-10px);
+}
+button {
+    width: 275px;
+    padding: 15px 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: hsl(154, 59%, 51%);
+    color: #fff;
+    box-shadow: 0px 5px 5px 0px hsl(249, 10%, 26%);
+} 
+.terms {
+    font-size: 14px;
+    text-align: center;
+    width: 75%;
+    font-weight: 400;
+    transform: translate(400px, -1000px);
+}
+.terms p span {
+    color:hsl(0, 100%, 74%);
+    font-weight: 600;
+} 
