@@ -1,5 +1,5 @@
 # 30 Days Of CSS
-I am attempting to do a 30 days of CSS challenge to improve my CSS skills! Thanks to frontendmentor.io for the amazing projects!
+I am attempting to do a 30 days of CSS challenge to improve my CSS skills! Thanks to frontendmentor.io for the amazing projects and images!
 
 
 # Day 1
