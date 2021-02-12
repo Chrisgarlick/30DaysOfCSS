@@ -45,3 +45,7 @@ I am attempting to do a 30 days of CSS challenge to improve my CSS skills! Thank
 # Day 11
 
 <img width="1280" alt="Screenshot 2021-02-11 at 20 59 02" src="https://user-images.githubusercontent.com/67547010/107698326-4acc2680-6cac-11eb-8614-d3075d2fa1f5.png">
+
+# Day 12
+
+<img width="1255" alt="Screenshot 2021-02-12 at 18 07 23" src="https://user-images.githubusercontent.com/67547010/107805677-9d195000-6d5d-11eb-85b2-b9f991eaab17.png">
