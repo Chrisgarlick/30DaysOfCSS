@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+@media only screen and (max-width: 400px){
+    body {
+        width: 400px;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+    }
+    .card {
+        width: 375px;
+        background-color: hsl(210, 46%, 95%);
+        margin-bottom: 20px;
+    }
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        transform: translateX(-40px);
+    }
+    .first {
+        transform: translateY(60px);
+        border-radius: 15px;
+        margin: auto;
+        width: 350px;
+        background-color: hsl(263, 55%, 52%);
+        height: 425px;
+
+    }
+    .titles {
+        flex-direction: column;
+        font-size: 8px;
+        font-weight: 600;
+        color: hsl(0, 0%, 81%);
+        line-height: 10px;
+        transform: translateX(-10px);
+    }
+    .verified {
+        color: hsla(0, 0%, 81%, 50%);
+    }
+    .quotes {
+        margin-bottom: 40px;
+        width: 75%;
+        color: hsl(0, 0%, 81%);
+        font-weight: 600;
+        margin-left: 40px;
+    }
+    .secondq {
+        margin-bottom: 60px;
+        color: hsla(0, 0%, 81%, 70%);
+        font-weight: 500;
+    }
+    .image { 
+        position: relative;
+        margin-right: 20px;
+        border-radius: 50%;
+        height: 40px;
+        border: 1px solid hsl(0, 0%, 81%);
+        transform: translateX(-0px);
+    }
+    .second {
+        margin-top: 80px;
+        background-color: hsl(217, 19%, 35%);
+        border-radius: 15px;
+        width: 350px;
+        margin-left: 12px;
+        height: 280px;
+    }
+    img {
+        position: absolute;
+        transform:translateX(230px);
+        height: 80px;
+    }
+    .third {
+        margin-top: 20px;
+        background-color: hsl(0, 0%, 100%);
+        width: 350px;
+        margin-left: 12px;
+        border-radius: 15px;
+        height: 250px;
+    }
+    .third .header .titles h1, .third .quotes p, .fifth .header .titles h1, .fifth .quotes p {
+        color: hsl(217, 19%, 35%);
+    }
+    .third .header .titles .verified, .fifth .header .titles .verified {
+        color: hsla(217, 19%, 35%, 50%);
+    }
+    .third .quotes .secondq, .fifth .quotes .secondq {
+        color: hsla(217, 19%, 35%, 70%);
+    }
+    .fourth {
+        margin-top: 20px;
+        background-color: hsl(219, 29%, 14%);
+        width: 350px;
+        margin-left: 12px;
+        border-radius: 15px;
+        height: 400px;
+    }
+    .fifth {
+        margin-top: 20px;
+        background-color: hsl(0, 0%, 100%);
+        width: 350px;
+        margin-left: 12px;
+        border-radius: 15px;
+        height: 550px;
+        margin-bottom: 20px;
+    }
+}
+
+body {
+    width: 1500px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.card {
+    width: 1500px;
+    background-color: hsl(210, 46%, 95%);
+    margin-bottom: 20px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    transform: translate(-120px, -110px);
+}
+.first {
+    transform: translate(-300px, 160px);
+    border-radius: 15px;
+    margin: auto;
+    width: 500px;
+    background-color: hsl(263, 55%, 52%);
+    height: 300px;
+
+}
+.titles {
+    flex-direction: column;
+    font-size: 8px;
+    font-weight: 600;
+    color: hsl(0, 0%, 81%);
+    line-height: 10px;
+    transform: translateX(-10px);
+}
+.verified {
+    color: hsla(0, 0%, 81%, 50%);
+}
+.quotes {
+    margin-bottom: 40px;
+    width: 90%;
+    color: hsl(0, 0%, 81%);
+    font-weight: 600;
+    margin-left: 40px;
+    transform: translateY(-120px);
+}
+.secondq {
+    margin-bottom: 60px;
+    color: hsla(0, 0%, 81%, 70%);
+    font-weight: 500;
+}
+.image { 
+    position: relative;
+    margin-right: 20px;
+    border-radius: 50%;
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 81%);
+    transform: translateX(-0px);
+}
+img {
+    position: relative;
+    transform:translateX(400px);
+    height: 80px;
+} 
+.second {
+    margin-top: 80px;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 15px;
+    width: 350px;
+    margin-left: 12px;
+    height: 300px;
+    transform: translate(700px, -220px);
+} 
+.second .header {
+    transform: translateX(-50px);
+}    
+.second .quotes {
+    width: 75%;
+    transform: translateY(0px);
+}
+.third {
+    margin-top: 20px;
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    margin-left: 12px;
+    border-radius: 15px;
+    height: 250px;
+    transform: translate(187px, -225px);
+}
+.third .header {
+    transform: translate(70px, -20px);
+}
+.third .quotes {
+    transform: translateY(-20px);
+}
+.third .header .titles h1, .third .quotes p, .fifth .header .titles h1, .fifth .quotes p {
+    color: hsl(217, 19%, 35%);
+    width: 90%;
+}
+.third .header .titles .verified, .fifth .header .titles .verified {
+    color: hsla(217, 19%, 35%, 50%);
+    width: 300px;
+}
+.third .quotes .secondq, .fifth .quotes .secondq {
+    color: hsla(217, 19%, 35%, 70%);
+} 
+.fourth {
+    margin-top: 20px;
+    background-color: hsl(219, 29%, 14%);
+    width: 550px;
+    margin-left: 12px;
+    border-radius: 15px;
+    height: 250px;
+    transform: translate(500px, -495px);
+} 
+.fourth .header {
+    transform: translate(-120px, -20px);
+}
+.fourth .quotes {
+    transform: translateY(-30px);
+}
+.fifth {
+    margin-top: 20px;
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    margin-left: 12px;
+    border-radius: 15px;
+    height: 550px;
+    margin-bottom: 20px;
+    transform: translate(1070px, -1075px);
+}
+.fifth .header {
+    transform: translate(40px, -10px);
+}
+.fifth .quotes {
+    transform: translate(0, 0);
+}
