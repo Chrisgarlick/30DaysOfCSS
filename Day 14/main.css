@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+@media only screen and (max-width: 400px){
+    body {
+        font-family: 'Raleway', sans-serif;
+    }
+    .mobile {
+        width: 375px;
+    }
+    .desktop {
+        visibility: hidden;
+        display: none;
+    }
+    .top {
+        width: 320px;
+        background-color: hsl(228, 56%, 26%);
+        transform: translate(30px, -550px);
+        height: 175px;
+        border-top-right-radius: 100px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    #logo {
+        transform: translate(40px, 30px);
+    }
+    .icon, .icon2, .icon3 {
+        transform: translate(-110px, 100px);
+        margin-left: 10px;
+        padding: 12px;
+        background-color: hsl(229, 57%, 11%);
+        border-radius: 10px;
+    }
+    .icon2 {
+        padding-top: 16x;
+        padding-bottom: 14px;
+    }
+    .icon3 {
+        padding-top: 16px;
+        padding-bottom: 15px;
+    }
+    .bottom {
+        width: 320px;
+        background-color: hsl(228, 56%, 26%);
+        transform: translate(30px, -525px);
+        height: 175px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .storage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(30px);
+        color: #fff;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .storage b {
+        padding: 5px;
+    }
+    .slidecontainer {
+        width: 100%; /* Width of the outside container */
+    }
+    /* The slider itself */
+    .slider {
+        -webkit-appearance: none;  
+        appearance: none;
+        width: 90%; 
+        height: 15px; 
+        background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%)); 
+        outline: hsl(229, 57%, 11%);
+        transition: opacity .2s;
+        border-radius: 10px;
+        transform: translate(15px, 20px);
+    }
+    /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none; 
+        appearance: none;
+        width: 15px; 
+        height: 15px; 
+        background: #fff; 
+        cursor: pointer; 
+        border-radius: 50%;
+        outline: hsl(229, 57%, 11%);
+    }
+    .slider::-moz-range-thumb {
+        width: 15px; 
+        height: 15px;
+        background: #000; 
+        cursor: pointer; 
+    }
+    .gb {
+        transform: translate(20px, 20px);
+        color: #fff;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    #two {
+        transform: translate(260px, -10px);
+    }
+    .usage {
+        width: 150px;
+        height: 50px;
+        background-color: #fff;
+        color: #000;
+        transform: translate(125px, -550px);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .usage p {
+        font-size: 14px;
+    }
+    .usage p b {
+        font-size: 24px;
+    }
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.card {
+    height: 600px;
+    background-color: hsl(229, 57%, 11%);
+}
+.mobile {
+    display: none;
+    visibility: hidden;
+}
+.desktop {
+    transform: translateY(230px);
+    width: 100%;
+}
+.top {
+    width: 320px;
+    background-color: hsl(228, 56%, 26%);
+    transform: translate(200px, -220px);
+    height: 175px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#logo {
+    transform: translate(40px, 30px);
+}
+.icon, .icon2, .icon3 {
+    transform: translate(-110px, 100px);
+    margin-left: 10px;
+    padding: 12px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+}
+.icon2 {
+    padding-top: 16x;
+    padding-bottom: 14px;
+}
+.icon3 {
+    padding-top: 16px;
+    padding-bottom: 15px;
+} 
+.bottom {
+    width: 500px;
+    background-color: hsl(228, 56%, 26%);
+    transform: translate(550px, -374px);
+    height: 140px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.storage {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transform: translate(15px, 20px);
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+.storage b {
+    padding: 5px;
+} 
+.slidecontainer {
+    width: 100%;
+}
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 90%; 
+    height: 15px; 
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%)); 
+    outline: hsl(229, 57%, 11%);
+    transition: opacity .2s;
+    border-radius: 10px;
+    transform: translate(15px, 20px);
+} 
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 15px; 
+    height: 15px; 
+    background: #fff; 
+    cursor: pointer; 
+    border-radius: 50%;
+    outline: hsl(229, 57%, 11%);
+}
+.slider::-moz-range-thumb {
+    width: 15px; 
+    height: 15px;
+    background: #000; 
+    cursor: pointer; 
+} 
+.gb {
+    transform: translate(20px, 20px);
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+#two {
+    transform: translate(425px, -10px);
+} 
+.usage {
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    transform: translate(875px, -540px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.usage p {
+    font-size: 14px;
+}
+.usage p b {
+    font-size: 24px;
+} 
