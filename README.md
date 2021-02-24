@@ -61,3 +61,7 @@ I am attempting to do a 30 days of CSS challenge to improve my CSS skills! Thank
 # Day 15
 
 ![Screenshot 2021-02-23 at 12 30 51](https://user-images.githubusercontent.com/67547010/108843892-36a0f700-75d3-11eb-9aab-7c3de5dc341a.png)
+
+# Day 16
+
+![Screenshot 2021-02-24 at 19 29 24](https://user-images.githubusercontent.com/67547010/109055366-fe82dc80-76d6-11eb-82e3-18bd0b2e71b0.png)
