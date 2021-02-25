@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+    background-color: hsl(36, 86%, 78%);
+}
+.socials i {
+    font-size: 40px;
+    margin: 0 10px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 40px;
+    padding: 12px;
+    transition: 0.4s;
+    background-color: #fff8dc;
+    box-shadow: 5px 0px 5px 0px rgb(128, 128, 128);
+}
+.fa-facebook, .fa-twitter {
+    color:hsla(208, 92%, 53%, 0.4);
+}
+.fa-facebook:hover, .fa-twitter:hover {
+    color:hsla(208, 92%, 53%, 1);
+}
+.fa-instagram {
+    color: hsla(329, 70%, 58%, 0.4);
+}
+.fa-instagram:hover {
+    color: hsla(329, 70%, 58%, 1);
+}
+.fa-github {
+    color: hsla(0, 0%, 0%, 0.4);
+}
+.fa-github:hover {
+    color: hsla(0, 0%, 0%, 1);
+}
+.fa-youtube {
+    color: hsla(348, 97%, 39%, 0.4);
+}
+.fa-youtube:hover {
+    color: hsla(348, 97%, 39%, 1);
+}
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-github:hover, .fa-youtube:hover {
+    transform: translateY(-30px);
+    box-shadow: 5px 15px 5px 0px gray;
+}
