@@ -77,3 +77,7 @@ I am attempting to do a 30 days of CSS challenge to improve my CSS skills! Thank
 # Day 19
 
 <img width="1098" alt="Screenshot 2021-03-30 at 11 50 12" src="https://user-images.githubusercontent.com/67547010/112977662-36ee5e00-914e-11eb-9a0e-03c0e54b7608.png">
+
+# Day 20
+
+![Day_20](https://user-images.githubusercontent.com/67547010/127664186-e5cd8846-5775-4061-98f9-e7c360c8fb11.gif)
